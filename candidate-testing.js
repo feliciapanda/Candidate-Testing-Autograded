@@ -30,7 +30,7 @@ candidateAnswer = input.question(question);
 function gradeQuiz(candidateAnswers) {
 
   // TODO 1.2c: Let the candidate know if they have answered the question correctly or incorrectly // 
-if (candidateAnswer = correctAnswer) {
+if (candidateAnswer === correctAnswer) {
   console.log(" Your answer is right");
 } else {
   console.log(" Your answer is wrong");
@@ -46,7 +46,7 @@ if (candidateAnswer = correctAnswer) {
 function runProgram() {
   askForName();
   // TODO 1.1c: Greet candidate using their name //
-   console.log("Welcome, Candidate" + candidateName,'!' );
+   console.log("Welcome, Candidate " + candidateName +'!' );
   askQuestion();
   gradeQuiz(this.candidateAnswers);
 }
